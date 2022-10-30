@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registration-form{
+	max-width: 800px;
+	background-color: rgba(244, 242, 242, 0.8);
+	padding:0 20px 20px 20px;
+	border-radius: 20px;
+	font-family: 'Lora', serif;
+	font-size: 19px;
+	font-weight: 600;
+  margin: 0px auto;
+}
+.form-label{
+    margin:0px 10px;
+}
+.center {
+    margin: 20px auto;
+}
+.center label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn {
+	padding: 10px 40px;
+	letter-spacing: 1.5px;
+}
+.btn:hover {
+	background-color: #007bff;
+	color: #000;
+	font-weight: 600;
+	border: none;
+}
+.bg-image {
+	backdrop-filter: blur(40px);
+}
+h5 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.light {
+    font-weight: 300;
+    font-size: 19px;
+}
+.container-fluid {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
